@@ -84,7 +84,7 @@ for i in range(loopcount):
     
 
     # get date for oldest tweet and print
-    oldest_tweet_date = next_id = data['statuses'][results-1]['created_at']
+    oldest_tweet_date = data['statuses'][results-1]['created_at']
     print(oldest_tweet_date)
     
 
